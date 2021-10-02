@@ -1,0 +1,33 @@
+.App-header {
+  background-color: #282c34;
+  height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.redtext{
+  color: tomato;
+}
+
+.greentext{
+  color: mediumseagreen;
+}
+
+.goldtext{
+  color: gold;
+}
+
+.pickwinner{
+  margin-top: -20px;
+  font-size: 32px;
+  padding: 30px 60px;
+  background-color: #383a3e;
+  color: white;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+
+.pickwinner:hover{
+  border: 3px solid gold;
+}

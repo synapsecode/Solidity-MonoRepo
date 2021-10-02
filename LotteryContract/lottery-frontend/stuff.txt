@@ -1,0 +1,5 @@
+> Metamask injects Web3 0.20 & A Provider (Depending on your selected network)
+> We do not want to use this version of Web3. So we must essentially hijack this and use the metamask
+provider but with our instance of web3
+
+> The ABI is the interface for the contract

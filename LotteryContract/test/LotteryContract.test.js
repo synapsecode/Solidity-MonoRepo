@@ -47,7 +47,9 @@ describe('LotteryContract', () => {
 
     it('Winner is Selected (Prize Pool sent to Winner)', async () => {
         const winner = await getWinner();
-        assert( winner == 'bob' || winner == 'alice');
+        assert( winner === 'bob' || winner === 'alice');
+        const winner_address = await compiledContract.methods.getWinner().call();
+        assert( winner_address === accounts[1] || winner_address === accounts[2]);
         console.log("\tThe winner is: ", winner);
     })
 
